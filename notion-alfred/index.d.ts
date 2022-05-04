@@ -1,1 +1,1 @@
-declare const hoge: string;
+export {};
