@@ -1,7 +1,7 @@
-import axios from 'axios';
-// fetch APIを作る
-// NotionのIdとTokenを指定する。
-// 引数にalfredのものを受け取る。
-const hoge = await axios.get('https://zipcloud.ibsnet.co.jp/api/search?zipcode=1500032');
-console.log(hoge.data.results);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEtBQUssTUFBTSxPQUFPLENBQUE7QUFFekIsZUFBZTtBQUVmLHdCQUF3QjtBQUV4QixxQkFBcUI7QUFFckIsTUFBTSxJQUFJLEdBQUcsTUFBTSxLQUFLLENBQUMsR0FBRyxDQUMxQiwwREFBMEQsQ0FDM0QsQ0FBQTtBQUNELE9BQU8sQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBheGlvcyBmcm9tICdheGlvcydcblxuLy8gZmV0Y2ggQVBJ44KS5L2c44KLXG5cbi8vIE5vdGlvbuOBrklk44GoVG9rZW7jgpLmjIflrprjgZnjgovjgIJcblxuLy8g5byV5pWw44GrYWxmcmVk44Gu44KC44Gu44KS5Y+X44GR5Y+W44KL44CCXG5cbmNvbnN0IGhvZ2UgPSBhd2FpdCBheGlvcy5nZXQoXG4gICdodHRwczovL3ppcGNsb3VkLmlic25ldC5jby5qcC9hcGkvc2VhcmNoP3ppcGNvZGU9MTUwMDAzMidcbilcbmNvbnNvbGUubG9nKGhvZ2UuZGF0YS5yZXN1bHRzKVxuIl19
+import axios from 'axios'
+
+const test = await axios.get(
+  'https://zipcloud.ibsnet.co.jp/api/search?zipcode=1500032'
+)
+
+console.log(test.data)
